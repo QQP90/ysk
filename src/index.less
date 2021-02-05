@@ -1,0 +1,61 @@
+@import '~iview/src/styles/index.less';
+
+@menu-dark-title: #001529;
+@menu-dark-active-bg: #000c17;
+@layout-sider-background: #001529;
+
+// .ivu-modal-body {
+//     position: relative;
+//     height: 600px;
+//     background: #fff;
+//     overflow: auto;
+//   }
+//   .ivu-modal-wrap {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+//   .ivu-modal {
+//     top: 0 !important;
+//   }
+.vertical-center-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ivu-modal{
+        top: 0;
+    }
+}
+.app-container {
+    .toolbar-top {
+        //height: 45px;
+    }
+    .main-content {
+        //height: ~"calc(100vh - 220px)";
+        //height: 550px;
+        //overflow-y: scroll;
+    }
+    .toolbar-bottom {
+        margin-top: 10px;
+        //height: 40px;
+        display: flex;
+        justify-content: space-between;
+        .action-box {
+            flex: 1;
+        }
+        .paging-box {
+            width: 1000px;
+            text-align: right;
+        }
+    }
+}
+
+.ivu-form-item{margin-top: 20px!important;}
+.toolbar-top .ivu-form-item {margin-top:10px!important;margin-bottom:10px!important;}
+.ivu-modal-wrap{}
+.ivu-menu-submenu-title , .ivu-menu-item{overflow:hidden;}
+
+
